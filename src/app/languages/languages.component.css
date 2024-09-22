@@ -1,0 +1,15 @@
+.languages-section {
+    margin: 20px 0;
+  }
+  
+  .language-list {
+    display: flex;
+    justify-content: space-between; /* Ajusta esto según tus necesidades */
+    max-width: 300px; /* Ajusta el ancho según lo necesites */
+  }
+  
+  .language-list span {
+    font-size: 18px;
+    margin: 0 10px;
+  }
+  
