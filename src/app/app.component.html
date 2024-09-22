@@ -1,34 +1,19 @@
+<div class="container">
+    <div class="header">
+        <app-header></app-header>
+    </div>
 
-
-<table>
-    <tr>
-        <td colspan="2" class="center-content">
-            <app-header></app-header>
-        </td>
-    </tr>
-    <tr>
-        <td>
+    <div class="main-content">
+        <div class="left-column">
             <app-work-experience></app-work-experience>
-        </td>
-        <td>
-            <app-skills></app-skills>
-        </td>
-    </tr>
-    <tr>
-        <td>
             <app-education></app-education>
-        </td>
-        <td>
-            <app-languages></app-languages>
-        </td>
-    </tr> <!-- Cierra esta etiqueta correctamente -->
-    <tr>
-        <td>
             <app-interests></app-interests>
-        </td>
-        <td>
-            <!-- Aquí va achievements -->
-            aca va archivements
-        </td>
-    </tr>
-</table>
+        </div>
+
+        <div class="right-column">
+            <app-skills></app-skills>
+            <app-languages></app-languages>
+            <app-achievements></app-achievements>
+        </div>
+    </div>
+</div>

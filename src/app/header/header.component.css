@@ -1,70 +1,77 @@
-.profile-card {
-    display: flex;
-    justify-content: space-between; /* Espacio máximo entre los elementos */
-    align-items: center;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    padding: 20px;
-    background-color: #f9f9f9;
-    max-width: 900px; /* Ancho máximo de la tarjeta */
-    margin: 0 auto;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    gap: 120px; /* Espacio entre los módulos */
-  }
-  
-  .profile-left {
-    flex: 2;
-    margin-right: 20px;
-  }
-  
-  .profile-left h1 {
-    margin: 0;
-    font-size: 24px;
-    font-weight: bold;
-  }
-  
-  .profile-left p {
-    margin: 5px 0;
-    font-size: 16px;
-    color: #555;
-  }
-  
-  .profile-center {
-    flex: 1;
-    text-align: center;
-    margin: 0 30px;
-  }
-  
-  .profile-center img {
-    border-radius: 50%;
-    width: 150px; /* Tamaño de la imagen */
-    height: 150px;
-    object-fit: cover;
-  }
-  
-  .profile-right {
-    flex: 1;
-    text-align: right;
-    margin-left: 20px;
-  }
-  
-  .profile-right ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .profile-right li {
-    font-size: 14px;
-    color: #333;
-    margin: 10px 0; /* Espacio entre cada dato */
-    display: flex;
-    align-items: center;
-  }
-  
-  .profile-right li i {
-    margin-right: 10px; /* Espacio entre el ícono y el texto */
-    color: green; /* Color verde para los íconos */
-    font-size: 16px; /* Tamaño del ícono */
-  }
-  
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.business-card {
+  display: flex;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 100%; /* Ocupa el 100% del ancho disponible */
+  max-width: none; /* Elimina el ancho máximo predefinido */
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profile-left {
+  flex: 1; /* Ocupa todo el espacio disponible a la izquierda */
+  padding-right: 20px;
+  text-align: left; /* Alinea el texto a la izquierda */
+}
+
+.profile-left h1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.profile-left p {
+  margin: 5px 0;
+  font-size: 16px;
+  color: #777;
+}
+
+.profile-center {
+  flex: 0; /* Imagen ajustada solo a su propio tamaño */
+  text-align: center;
+  margin: 0 40px; /* Margen equilibrado para centrarla */
+}
+
+.profile-center img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.profile-right {
+  flex: 1; /* Ocupa todo el espacio disponible a la derecha */
+  text-align: right; /* Alinea el texto de contactos a la derecha */
+}
+
+.profile-right ul {
+  list-style: none;
+}
+
+.profile-right li {
+  margin: 10px 0;
+  font-size: 14px;
+  color: #333;
+}
+
+.profile-right i {
+  color: green;
+  margin-right: 10px;
+}
