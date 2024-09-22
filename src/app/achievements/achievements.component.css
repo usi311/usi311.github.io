@@ -1,0 +1,26 @@
+.achievements-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0px;
+  }
+  
+  .achievements-container ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .achievements-container li {
+    margin-bottom: 20px;
+  }
+  
+  .achievements-container p {
+    margin: 0;
+    font-size: 15px;
+    line-height: 1;
+  }
+  
+  .achievements-container p + p {
+    margin-top: 5px;
+  }
+  
+  
