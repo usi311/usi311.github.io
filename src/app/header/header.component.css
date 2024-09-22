@@ -1,0 +1,70 @@
+.profile-card {
+    display: flex;
+    justify-content: space-between; /* Espacio máximo entre los elementos */
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    max-width: 900px; /* Ancho máximo de la tarjeta */
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    gap: 120px; /* Espacio entre los módulos */
+  }
+  
+  .profile-left {
+    flex: 2;
+    margin-right: 20px;
+  }
+  
+  .profile-left h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .profile-left p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .profile-center {
+    flex: 1;
+    text-align: center;
+    margin: 0 30px;
+  }
+  
+  .profile-center img {
+    border-radius: 50%;
+    width: 150px; /* Tamaño de la imagen */
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .profile-right {
+    flex: 1;
+    text-align: right;
+    margin-left: 20px;
+  }
+  
+  .profile-right ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .profile-right li {
+    font-size: 14px;
+    color: #333;
+    margin: 10px 0; /* Espacio entre cada dato */
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-right li i {
+    margin-right: 10px; /* Espacio entre el ícono y el texto */
+    color: green; /* Color verde para los íconos */
+    font-size: 16px; /* Tamaño del ícono */
+  }
+  
